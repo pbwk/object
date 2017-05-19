@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="0511" />
+    <orderEntry type="module" module-name="version2. 项目中使用页面静态化" />
+    <orderEntry type="module" module-name="0517" />
   </component>
 </module>

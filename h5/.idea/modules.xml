@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../0511/.idea/0511.iml" filepath="$PROJECT_DIR$/../0511/.idea/0511.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../0517/.idea/0517.iml" filepath="$PROJECT_DIR$/../0517/.idea/0517.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/h5.iml" filepath="$PROJECT_DIR$/.idea/h5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../0423xxx/.idea/version2. 项目中使用页面静态化.iml" filepath="$PROJECT_DIR$/../0423xxx/.idea/version2. 项目中使用页面静态化.iml" />
     </modules>
   </component>
 </project>

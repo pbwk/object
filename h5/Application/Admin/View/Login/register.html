@@ -1,0 +1,44 @@
+<include  file="include/header" />
+
+<body>
+<!--header start here-->
+<div class="login-form">
+    <div class="top-login">
+        <span><img src="/Application/Admin/View/Login/images/group.png" alt=""/></span>
+    </div>
+    <h1>注册</h1>
+    <div class="login-top">
+        <form action="/index.php/?s=admin/login/doregister">
+            <div class="login-ic">
+                <i ></i>
+                <input type="text"  value="用户名" name="user_name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'User name';}"/>
+                <div class="clear"> </div>
+            </div>
+            <div class="login-ic">
+                <i class="icon"></i>
+                <input type="password"  value="" name="password" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'password';}"/>
+                <div class="clear"> </div>
+            </div>
+            <div class="login-ic">
+                <i class="icon"></i>
+                <input type="text"  value="邮箱" name="email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '邮箱';}"/>
+                <div class="clear"> </div>
+            </div>
+
+            <div class="login-ic">
+                <i class="icon"></i>
+                <input type="text"  value="请输入验证码" name="yzm" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '验证码';}"/><img src="__CONTROLLER__/verify">
+                <div class="clear"> </div>
+            </div>
+
+
+            <div class="log-bwn">
+                <input type="submit"  value="注册" >
+            </div>
+        </form>
+    </div>
+    <p class="copy">© {$time|date=('Y-m-d H:i:s'),###} <a href="#" target="_blank">pbwk</a></p>
+</div>
+<!--header start here-->
+</body>
+</html>
